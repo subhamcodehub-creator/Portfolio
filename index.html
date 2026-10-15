@@ -1,0 +1,1331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SUBHAM GHOSH — Developer &amp; Data Science Enthusiast</title>
+  <meta name="description" content="Portfolio of Subham Ghosh, Developer &amp; Data Science Enthusiast. Student at IIT Madras passionate about coding, software development, AI/ML, and building real-world projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Outfit:wght@600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&family=Righteous&family=Space+Grotesk:wght@600;700&family=Syne:wght@700;800;900&family=Unbounded:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- BACKGROUND SCROLL ANIMATION CANVAS (STAYS FIXED AS YOU SCROLL DOWN) -->
+  <canvas id="scroll-canvas"></canvas>
+  <div class="global-canvas-overlay"></div>
+
+  <!-- MAIN SCROLLABLE SITE CONTAINER -->
+  <div class="site-wrapper">
+
+    <!-- NAVIGATION HEADER -->
+    <header class="navbar">
+      <div class="nav-brand-spacer" aria-hidden="true"></div>
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#incredible-projects" class="nav-link">Projects</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#order-projects" class="nav-link">Order</a>
+      </nav>
+      <a href="#order-projects" class="btn-touch-nav">
+        <span>Order Project</span>
+        <span class="btn-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </span>
+      </a>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="hero-content-wrapper">
+
+        <!-- Top Status & Location Badges -->
+        <div class="hero-badge-row">
+          <div class="hero-status-pill">
+            <span class="status-pulse-dot"></span>
+            <span class="status-text">Available for Projects &amp; Collaborations</span>
+          </div>
+          <div class="hero-location-pill">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Kolkata, India</span>
+          </div>
+        </div>
+
+        <div class="hero-main-row">
+          <!-- Left: Big Title & Personal Introduction -->
+          <div class="hero-left">
+            <!-- Hero Personal Introduction & Signature Name Design -->
+            <div class="hero-intro-header">
+              <div class="hero-eyebrow-pill">
+                <span class="eyebrow-terminal-icon">&gt;_</span>
+                <span class="hero-greeting-label">HELLO WORLD, I'M</span>
+              </div>
+              
+              <div class="hero-name-badge-designed">
+                <span class="hero-name-sparkle-left">✦</span>
+                <span class="hero-name-main">
+                  <span class="name-part-subham">SUBHAM</span>
+                  <span class="name-part-ghosh">GHOSH</span>
+                </span>
+                <span class="hero-name-dot"></span>
+                <span class="hero-name-code-tag">DEV</span>
+              </div>
+            </div>
+            
+            <h1 class="hero-title">
+              Developer &amp;<br>
+              <span class="hero-gradient-title">Data Science</span><br>
+              <span class="hero-title-light">Enthusiast</span>
+            </h1>
+
+            <div class="hero-cta-btns">
+              <a href="#incredible-projects" class="hero-btn-primary">
+                <span>Explore Projects</span>
+                <span class="btn-arrow">↓</span>
+              </a>
+              <a href="#contact" class="hero-btn-secondary">
+                <span>Let's Connect</span>
+                <span class="btn-arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Short Introduction Glass Card -->
+          <div class="hero-right">
+            <div class="intro-glass-card">
+              <div class="intro-card-header">
+                <div class="intro-badge-tag">
+                  <span class="sparkle-icon">✦</span>
+                  <span>IIT Madras</span>
+                </div>
+                <span class="intro-year-badge">2nd Year</span>
+              </div>
+              
+              <p class="hero-subtext">
+                I’m a <strong>Data Science and Applications</strong> student at <strong>IIT Madras</strong>, passionate about coding, software development, AI/ML, and building real-world projects.
+              </p>
+
+              <!-- Tech Focus Chips -->
+              <div class="hero-tech-chips">
+                <span class="tech-chip">Python</span>
+                <span class="tech-chip">Data Science</span>
+                <span class="tech-chip">AI &amp; ML</span>
+                <span class="tech-chip">Full Stack</span>
+                <span class="tech-chip">Neural Networks</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom: 4 Numbered Focus Domains -->
+        <div class="hero-services-row">
+          <div class="service-pill">
+            <div class="service-pill-top">
+              <span class="service-num">#01</span>
+              <span class="service-glow-line"></span>
+            </div>
+            <span class="service-name">Data Science &amp; Analytics</span>
+          </div>
+          <div class="service-pill">
+            <div class="service-pill-top">
+              <span class="service-num">#02</span>
+              <span class="service-glow-line"></span>
+            </div>
+            <span class="service-name">AI &amp; Machine Learning</span>
+          </div>
+          <div class="service-pill">
+            <div class="service-pill-top">
+              <span class="service-num">#03</span>
+              <span class="service-glow-line"></span>
+            </div>
+            <span class="service-name">Full Stack Development</span>
+          </div>
+          <div class="service-pill">
+            <div class="service-pill-top">
+              <span class="service-num">#04</span>
+              <span class="service-glow-line"></span>
+            </div>
+            <span class="service-name">Software Engineering</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BEHIND THE DESIGNS SECTION -->
+    <section id="about" class="behind-designs-section">
+      <div class="behind-container">
+        
+        <div class="behind-left">
+          <span class="section-tag">Behind the Designs</span>
+          <h2 class="behind-title">Shaping<br>Experiences That<br>Make Life Simpler</h2>
+        </div>
+
+        <div class="behind-right">
+          <p class="behind-lead">
+            I'm a product designer focused on building clean, intuitive interfaces that solve real-world problems.
+          </p>
+          <div class="behind-cta-row">
+            <span class="cta-note">Let's Build Something<br>Meaningful Together</span>
+            <a href="#contact" class="btn-touch-orange">
+              <span>Get in touch</span>
+              <span class="btn-icon-white">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORK SHOWCASE GALLERY -->
+    <section class="showcase-section">
+      <div class="showcase-grid">
+        
+        <!-- Showcase 1: NER LandslideWatch -->
+        <div class="showcase-card showcase-card-green">
+          <div class="showcase-img-wrap">
+            <img src="assets/iphone-landslide.jpg" alt="NER LandslideWatch — AI-Powered Landslide Risk Prediction App" loading="lazy" />
+            <div class="showcase-img-glare"></div>
+          </div>
+          <div class="showcase-card-overlay">
+            <div class="showcase-card-top-row">
+              <div class="showcase-card-badges">
+                <span class="showcase-pill-badge pill-green">
+                  <span class="badge-glow-dot dot-green"></span>
+                  AI &amp; ML
+                </span>
+                <span class="showcase-pill-badge">Data Science</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Inquiry%20about%20NER%20LandslideWatch%20Project" class="showcase-card-icon-btn" title="Discuss Similar Project" aria-label="Discuss Project">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+            <h4 class="showcase-card-title">NER LandslideWatch</h4>
+            <p class="showcase-card-desc">AI-powered risk prediction with satellite GIS &amp; terrain telemetry</p>
+            <div class="showcase-card-footer">
+              <div class="showcase-tags-mini">
+                <span>PyTorch</span>
+                <span class="tag-sep">•</span>
+                <span>GeoTIFF</span>
+                <span class="tag-sep">•</span>
+                <span>GIS Telemetry</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Showcase 2: IIT Madras Course Planner -->
+        <div class="showcase-card showcase-card-purple">
+          <div class="showcase-img-wrap">
+            <img src="assets/iphone-iitmadras.jpg" alt="IIT Madras Course Planner — Academic Journey Mobile App" loading="lazy" />
+            <div class="showcase-img-glare"></div>
+          </div>
+          <div class="showcase-card-overlay">
+            <div class="showcase-card-top-row">
+              <div class="showcase-card-badges">
+                <span class="showcase-pill-badge pill-purple">
+                  <span class="badge-glow-dot dot-purple"></span>
+                  IIT Madras
+                </span>
+                <span class="showcase-pill-badge">Academic App</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Inquiry%20about%20Academic%20Planner%20Project" class="showcase-card-icon-btn" title="Discuss Similar Project" aria-label="Discuss Project">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+            <h4 class="showcase-card-title">IITM Academic Planner</h4>
+            <p class="showcase-card-desc">Smart course scheduling, degree progress &amp; student academic portal</p>
+            <div class="showcase-card-footer">
+              <div class="showcase-tags-mini">
+                <span>React</span>
+                <span class="tag-sep">•</span>
+                <span>TypeScript</span>
+                <span class="tag-sep">•</span>
+                <span>Degree Audit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Showcase 3: The Olive Bistro -->
+        <div class="showcase-card showcase-card-orange">
+          <div class="showcase-img-wrap">
+            <img src="assets/iphone-bistro.jpg" alt="The Olive Bistro — Gourmet Food & Dining Mobile App" loading="lazy" />
+            <div class="showcase-img-glare"></div>
+          </div>
+          <div class="showcase-card-overlay">
+            <div class="showcase-card-top-row">
+              <div class="showcase-card-badges">
+                <span class="showcase-pill-badge pill-orange">
+                  <span class="badge-glow-dot dot-orange"></span>
+                  Full Stack
+                </span>
+                <span class="showcase-pill-badge">UI/UX Design</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Inquiry%20about%20The%20Olive%20Bistro%20Web%20Project" class="showcase-card-icon-btn" title="Discuss Similar Project" aria-label="Discuss Project">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+            <h4 class="showcase-card-title">The Olive Bistro</h4>
+            <p class="showcase-card-desc">Modern culinary digital experience, signature menu showcase &amp; ordering</p>
+            <div class="showcase-card-footer">
+              <div class="showcase-tags-mini">
+                <span>Next.js</span>
+                <span class="tag-sep">•</span>
+                <span>Responsive</span>
+                <span class="tag-sep">•</span>
+                <span>Online Order</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION SECTION -->
+    <section id="experience" class="timeline-section">
+      <div class="timeline-container">
+        
+        <h2 class="timeline-main-title" id="timeline-title">Experience</h2>
+
+        <!-- Interactive Pill Switcher -->
+        <div class="timeline-switcher-wrap">
+          <div class="timeline-pill-switcher">
+            <button class="timeline-tab-btn active" id="tab-btn-exp" data-tab="experience">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+              <span>Experience</span>
+            </button>
+            <button class="timeline-tab-btn" id="tab-btn-edu" data-tab="education">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+              <span>Education</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Experience Tab Content -->
+        <div class="timeline-tab-content active" id="content-experience">
+          <div class="timeline-list">
+            
+            <!-- Item 1 -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">Web<br>Developer</h3>
+                <span class="role-org">Frontend &amp; Projects</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2024</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Developing responsive web applications, interactive interfaces, and scalable frontend architectures with clean code and modern aesthetics.</p>
+              </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">UI/UX &amp; Web<br>Designer</h3>
+                <span class="role-org">Creative Design</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2025</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Designing modern user interfaces, high-fidelity prototypes, brand design systems, and engaging web experiences tailored for conversion.</p>
+              </div>
+            </div>
+
+            <!-- Item 3: Data Science & MLP Projects -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">Data Science &amp;<br>MLP Projects</h3>
+                <span class="role-org">IIT Madras</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2026+</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Doing projects in Data Science and Multi-Layer Perceptron (MLP) deep learning projects from IIT Madras in year 2026 onwards.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Education Tab Content -->
+        <div class="timeline-tab-content" id="content-education">
+          <div class="timeline-list">
+            
+            <!-- Item 1: Class X -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">Class X<br>(Secondary)</h3>
+                <span class="role-org">Jawahar Navodaya Vidyalaya</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2023</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Completed Class X secondary board education from Jawahar Navodaya Vidyalaya in the year 2023.</p>
+              </div>
+            </div>
+
+            <!-- Item 2: Class XII -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">Class XII<br>(Higher Secondary)</h3>
+                <span class="role-org">Manisha International School</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2025</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Completed Class XII higher secondary education from Manisha International School in the year 2025.</p>
+              </div>
+            </div>
+
+            <!-- Item 3: B.Tech -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">B.Tech in<br>Engineering</h3>
+                <span class="role-org">Heritage Institute of Technology</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2025–29</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Pursuing B.Tech from Heritage Institute of Technology, currently in 2nd year (2025–2029).</p>
+              </div>
+            </div>
+
+            <!-- Item 4: B.S. in Data Science -->
+            <div class="timeline-item">
+              <div class="timeline-col-role">
+                <h3 class="role-title">B.S. in Data Science<br>&amp; Applications</h3>
+                <span class="role-org">IIT Madras</span>
+              </div>
+              <div class="timeline-col-year">
+                <span class="year-label">2025+</span>
+              </div>
+              <div class="timeline-col-desc">
+                <p>Pursuing B.S. in Data Science and Applications from IIT Madras, currently in 2nd year (2025 onwards).</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: I MAKE INCREDIBLE PROJECTS -->
+    <section id="incredible-projects" class="incredible-projects-section">
+      <div class="incredible-container">
+        
+        <!-- Centered Section Title (As in Reference) -->
+        <div class="incredible-header-centered">
+          <h2 class="incredible-main-title">
+            I Make Incredible<br>
+            <span class="purple-accent-text">Projects</span>
+          </h2>
+        </div>
+
+        <!-- 5 Projects Carousel Slider -->
+        <div class="projects-carousel-wrap">
+          <button class="carousel-side-btn prev-side-btn" id="proj-prev" aria-label="Previous Projects">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+          </button>
+
+          <div class="projects-carousel-track" id="projects-track">
+            
+            <!-- Card 01 -->
+            <div class="project-item-card">
+              <div class="project-card-top">
+                <span class="project-num">01</span>
+                <span class="project-category">Web</span>
+              </div>
+              <h3 class="project-name">Barbershop<br>website</h3>
+              <div class="project-tech-info">
+                <span class="tech-heading">Technologies used</span>
+                <p class="tech-desc">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+              </div>
+              <div class="project-media-box">
+                <img src="assets/project-card-01.jpg" alt="Barbershop website" loading="lazy" />
+                <div class="project-update-soon-badge">
+                  <span class="update-soon-dot"></span>
+                  <span class="update-soon-text">Update soon</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="project-item-card">
+              <div class="project-card-top">
+                <span class="project-num">02</span>
+                <span class="project-category">Design</span>
+              </div>
+              <h3 class="project-name">Interface Design<br>For Ice Cream Shop</h3>
+              <div class="project-tech-info">
+                <span class="tech-heading">Technologies used</span>
+                <p class="tech-desc">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+              </div>
+              <div class="project-media-box">
+                <img src="assets/project-card-02.jpg" alt="Interface Design For Ice Cream Shop" loading="lazy" />
+                <div class="project-update-soon-badge">
+                  <span class="update-soon-dot"></span>
+                  <span class="update-soon-text">Update soon</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 03 -->
+            <div class="project-item-card">
+              <div class="project-card-top">
+                <span class="project-num">03</span>
+                <span class="project-category">Web</span>
+              </div>
+              <h3 class="project-name">SEO For Coffee<br>Websites</h3>
+              <div class="project-tech-info">
+                <span class="tech-heading">Technologies used</span>
+                <p class="tech-desc">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+              </div>
+              <div class="project-media-box">
+                <img src="assets/project-card-03.jpg" alt="SEO For Coffee Websites" loading="lazy" />
+                <div class="project-update-soon-badge">
+                  <span class="update-soon-dot"></span>
+                  <span class="update-soon-text">Update soon</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 04 -->
+            <div class="project-item-card">
+              <div class="project-card-top">
+                <span class="project-num">04</span>
+                <span class="project-category">Design</span>
+              </div>
+              <h3 class="project-name">Web Design<br>For Restaurant</h3>
+              <div class="project-tech-info">
+                <span class="tech-heading">Technologies used</span>
+                <p class="tech-desc">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+              </div>
+              <div class="project-media-box">
+                <img src="assets/project-card-04.jpg" alt="Web Design For Restaurant" loading="lazy" />
+                <div class="project-update-soon-badge">
+                  <span class="update-soon-dot"></span>
+                  <span class="update-soon-text">Update soon</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 05 -->
+            <div class="project-item-card">
+              <div class="project-card-top">
+                <span class="project-num">05</span>
+                <span class="project-category">Web</span>
+              </div>
+              <h3 class="project-name">Fast Food<br>Website</h3>
+              <div class="project-tech-info">
+                <span class="tech-heading">Technologies used</span>
+                <p class="tech-desc">HTML, CSS, JavaScript, Gsap, Swiper Js and Figma.</p>
+              </div>
+              <div class="project-media-box">
+                <img src="assets/project-card-05.jpg" alt="Fast Food Website" loading="lazy" />
+                <div class="project-update-soon-badge">
+                  <span class="update-soon-dot"></span>
+                  <span class="update-soon-text">Update soon</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="carousel-side-btn next-side-btn" id="proj-next" aria-label="Next Projects">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Carousel Pagination Dots -->
+        <div class="projects-pagination-dots" id="projects-dots">
+          <button class="proj-dot active" data-index="0" aria-label="Go to Project 1"></button>
+          <button class="proj-dot" data-index="1" aria-label="Go to Project 2"></button>
+          <button class="proj-dot" data-index="2" aria-label="Go to Project 3"></button>
+          <button class="proj-dot" data-index="3" aria-label="Go to Project 4"></button>
+          <button class="proj-dot" data-index="4" aria-label="Go to Project 5"></button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: REVIEWS (WHAT THEY SAY ABOUT ME) -->
+    <section id="reviews" class="reviews-section">
+      <div class="reviews-container">
+        
+        <!-- Centered Section Title -->
+        <div class="reviews-header-centered">
+          <h2 class="reviews-main-title">
+            <span class="reviews-title-purple">What They Say</span><br>
+            <span class="reviews-title-white">About Me</span>
+          </h2>
+        </div>
+
+        <!-- 6 Reviews Grid (As Shown in Reference Image) -->
+        <div class="reviews-grid">
+          
+          <!-- Review 1: Willer Morth -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-1.jpg" alt="Willer Morth" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Willer Morth</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              Subham built our web platform with exceptional speed and clean code. The interactive UI and animations were flawless, exceeding all our expectations.
+            </p>
+          </div>
+
+          <!-- Review 2: Llemi Llorens -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-2.jpg" alt="Llemi Llorens" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Llemi Llorens</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              Outstanding expertise in machine learning and data science. He took complex datasets and built a high-accuracy predictive model that transformed our pipeline.
+            </p>
+          </div>
+
+          <!-- Review 3: Jems Guiller -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-3.jpg" alt="Jems Guiller" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Jems Guiller</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              A true master of modern aesthetics and UX simplicity. He simplified our product's entire flow into an intuitive, elegant interface our users love.
+            </p>
+          </div>
+
+          <!-- Review 4: Abex Wrooks -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-4.jpg" alt="Abex Wrooks" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Abex Wrooks</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              His analytical depth and Python skills are top-notch. Delivered powerful data visualizations and deep statistical insights well ahead of the deadline.
+            </p>
+          </div>
+
+          <!-- Review 5: Marcus Vance -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-5.jpg" alt="Marcus Vance" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Marcus Vance</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              Remarkable communication and rapid turnaround on custom software features. Reliable, detail-oriented, and a pleasure to collaborate with on every sprint.
+            </p>
+          </div>
+
+          <!-- Review 6: Sophia Reed -->
+          <div class="review-card">
+            <div class="review-avatar-wrap">
+              <img src="assets/review-avatar-6.jpg" alt="Sophia Reed" class="review-avatar-img" loading="lazy" />
+            </div>
+            <h3 class="reviewer-name">Sophia Reed</h3>
+            <div class="reviewer-rating">
+              <span class="rating-stars" aria-label="5 stars">
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                <svg class="star-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </span>
+              <span class="rating-val">5.0</span>
+            </div>
+            <p class="review-quote">
+              His technical rigor and mathematical problem-solving from IIT Madras shine through. Highly dependable for complex engineering challenges.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: ORDER CUSTOM PROJECTS VIA EMAIL -->
+    <section id="order-projects" class="order-projects-section">
+      <div class="order-container">
+        
+        <!-- Section Header -->
+        <div class="order-header-wrap">
+          <div class="order-eyebrow-pill">
+            <span class="order-pulsing-dot"></span>
+            <span class="order-eyebrow-text">COMMISSION A PROJECT • DIRECT EMAIL ORDERING</span>
+          </div>
+
+          <h2 class="order-main-heading">
+            Have a Project in Mind?<br>
+            <span class="order-gradient-accent">Order Directly via Email</span>
+          </h2>
+
+          <p class="order-lead-desc">
+            Bring your web application, machine learning model, or full-stack software project to life.
+            Choose a commission tier below or send a custom project specification straight to my inbox at
+            <a href="mailto:subham.codehub@gmail.com" class="order-email-inline">subham.codehub@gmail.com</a>.
+          </p>
+        </div>
+
+        <!-- Email Hero Quick-Action Bar -->
+        <div class="order-email-hero-strip">
+          <div class="hero-strip-left">
+            <div class="email-icon-pulse">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </div>
+            <div class="email-hero-text">
+              <span class="email-hero-label">PRIMARY PROJECT INBOX</span>
+              <a href="mailto:subham.codehub@gmail.com" class="email-hero-address">subham.codehub@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="hero-strip-meta">
+            <div class="meta-pill">
+              <span class="meta-dot dot-green"></span>
+              <span>Available for New Projects</span>
+            </div>
+            <div class="meta-pill">
+              <span class="meta-icon">⚡</span>
+              <span>Response in &lt; 12 Hours</span>
+            </div>
+          </div>
+
+          <div class="hero-strip-actions">
+            <button class="btn-copy-email" id="btn-copy-primary-email" type="button" aria-label="Copy Subham's Email">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+              </svg>
+              <span class="copy-label-text">Copy Email</span>
+            </button>
+            <a href="mailto:subham.codehub@gmail.com?subject=New%20Project%20Inquiry%20-%20Subham%20Ghosh&body=Hi%20Subham%2C%0A%0AI%20would%20like%20to%20order%20%2F%20discuss%20a%20project%20with%20you.%0A%0A-%20Project%20Overview%3A%20%0A-%20Target%20Timeline%3A%20%0A-%20Approximate%20Budget%3A%20%0A%0ABest%20regards%2C" class="btn-launch-email">
+              <span>Compose Email Now</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- 3 Commission Packages Grid -->
+        <div class="order-packages-grid">
+          
+          <!-- Package 1: Web Application -->
+          <div class="order-package-card">
+            <div class="package-header-top">
+              <span class="package-tag">Web Application</span>
+              <span class="package-icon-wrap icon-orange">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </span>
+            </div>
+            <h3 class="package-title">Modern Web App &amp; SaaS</h3>
+            <p class="package-desc">High-performance responsive websites, web applications, and landing pages with custom micro-animations.</p>
+            
+            <div class="package-features-list">
+              <div class="feat-item"><span class="feat-check">✓</span> Custom UI/UX, Dark/Light modes &amp; Animations</div>
+              <div class="feat-item"><span class="feat-check">✓</span> Modern React / Next.js / Vanilla JS Architecture</div>
+              <div class="feat-item"><span class="feat-check">✓</span> API Integrations, Forms &amp; Cloud Database</div>
+              <div class="feat-item"><span class="feat-check">✓</span> 95+ Google Lighthouse Speed &amp; SEO tuned</div>
+            </div>
+
+            <div class="package-footer">
+              <div class="package-turnaround">
+                <span class="turnaround-label">Estimated Delivery</span>
+                <span class="turnaround-val">⚡ 1 – 2 Weeks</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Project%20Order%3A%20Modern%20Web%20App%20Development&body=Hi%20Subham%2C%0A%0AI%20would%20like%20to%20order%20a%20Web%20Application%20project.%0A%0A1.%20Project%20Concept%3A%20%0A2.%20Pages%20%2F%20Features%20Needed%3A%20%0A3.%20Desired%20Delivery%20Date%3A%20%0A4.%20Budget%20Range%3A%20%0A%0ABest%20regards%2C" class="btn-package-order">
+                <span>Order Web Project</span>
+                <span class="btn-arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Package 2: AI & Machine Learning (Featured) -->
+          <div class="order-package-card featured-order-card">
+            <div class="package-featured-banner">MOST POPULAR • IIT MADRAS</div>
+            <div class="package-header-top">
+              <span class="package-tag tag-green">AI &amp; Data Science</span>
+              <span class="package-icon-wrap icon-green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-4 4 4 4 0 0 1-4-4V6a4 4 0 0 1 4-4Z"></path>
+                  <path d="M16 11.37A4 4 0 0 1 19 15v1a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4v-1a4 4 0 0 1 3-3.63"></path>
+                </svg>
+              </span>
+            </div>
+            <h3 class="package-title">AI / ML &amp; Predictive Models</h3>
+            <p class="package-desc">Custom machine learning pipelines, GIS satellite analytics, risk prediction models, and intelligent automated workflows.</p>
+            
+            <div class="package-features-list">
+              <div class="feat-item"><span class="feat-check check-green">✓</span> PyTorch, Scikit-learn &amp; Deep Learning pipelines</div>
+              <div class="feat-item"><span class="feat-check check-green">✓</span> Satellite GIS, GeoTIFF telemetry &amp; spatial models</div>
+              <div class="feat-item"><span class="feat-check check-green">✓</span> Exploratory Data Analysis &amp; interactive dashboards</div>
+              <div class="feat-item"><span class="feat-check check-green">✓</span> Inference API deployment &amp; model documentation</div>
+            </div>
+
+            <div class="package-footer">
+              <div class="package-turnaround">
+                <span class="turnaround-label">Estimated Delivery</span>
+                <span class="turnaround-val">⚡ 2 – 3 Weeks</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Project%20Order%3A%20AI%20%26%20Machine%20Learning%20Solution&body=Hi%20Subham%2C%0A%0AI%20would%20like%20to%20order%20an%20AI%20%2F%20Machine%20Learning%20project.%0A%0A1.%20Problem%20to%20Solve%3A%20%0A2.%20Dataset%20Details%3A%20%0A3.%20Expected%20Model%20Deliverables%3A%20%0A4.%20Timeline%3A%20%0A5.%20Budget%20Range%3A%20%0A%0ABest%20regards%2C" class="btn-package-order btn-featured-order">
+                <span>Order AI / ML Project</span>
+                <span class="btn-arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Package 3: Bespoke Full-Stack -->
+          <div class="order-package-card">
+            <div class="package-header-top">
+              <span class="package-tag tag-purple">Full-Stack Solution</span>
+              <span class="package-icon-wrap icon-purple">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </span>
+            </div>
+            <h3 class="package-title">Bespoke Full-Stack System</h3>
+            <p class="package-desc">Custom end-to-end architectures built from zero for businesses and startups requiring bespoke features and scale.</p>
+            
+            <div class="package-features-list">
+              <div class="feat-item"><span class="feat-check">✓</span> Scalable backend architecture &amp; database schemas</div>
+              <div class="feat-item"><span class="feat-check">✓</span> Authentication, permissions &amp; admin dashboards</div>
+              <div class="feat-item"><span class="feat-check">✓</span> Payment gateways &amp; third-party microservices</div>
+              <div class="feat-item"><span class="feat-check">✓</span> Full source code handover with 14-day QA support</div>
+            </div>
+
+            <div class="package-footer">
+              <div class="package-turnaround">
+                <span class="turnaround-label">Estimated Delivery</span>
+                <span class="turnaround-val">⚡ Custom Scope</span>
+              </div>
+              <a href="mailto:subham.codehub@gmail.com?subject=Project%20Order%3A%20Bespoke%20Full-Stack%20System&body=Hi%20Subham%2C%0A%0AI%20would%20like%20to%20order%20a%20Bespoke%20Full-Stack%20project.%0A%0A1.%20System%20Requirements%3A%20%0A2.%20Tech%20Stack%20Preference%20%28if%20any%29%3A%20%0A3.%20Scope%20%26%20Milestones%3A%20%0A4.%20Budget%20Estimate%3A%20%0A%0ABest%20regards%2C" class="btn-package-order">
+                <span>Order Custom System</span>
+                <span class="btn-arrow-right">→</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Trust & Guarantees Row -->
+        <div class="order-guarantees-strip">
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🛡️</span>
+            <div class="guarantee-text">
+              <strong>100% Code Ownership</strong>
+              <span>Full source code, git repo, &amp; commercial rights handover.</span>
+            </div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">⚡</span>
+            <div class="guarantee-text">
+              <strong>Transparent Milestones</strong>
+              <span>Regular progress demos, live links &amp; feedback loops.</span>
+            </div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">💬</span>
+            <div class="guarantee-text">
+              <strong>Direct Communication</strong>
+              <span>Zero middlemen — work directly with Subham via email.</span>
+            </div>
+          </div>
+          <div class="guarantee-item">
+            <span class="guarantee-icon">🔄</span>
+            <div class="guarantee-text">
+              <strong>14-Day Post-Launch Support</strong>
+              <span>Included bug fixing &amp; handover guidance after launch.</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTION: READY TO GROW & SCALE YOUR COMPANY? -->
+    <section id="contact" class="grow-section">
+      <div class="grow-container">
+        
+        <!-- Headline Header Row -->
+        <div class="grow-header-row">
+          <div class="grow-heading-wrap">
+            
+            <!-- Contextual Eyebrow Pill -->
+            <div class="grow-eyebrow-pill">
+              <span class="grow-pulse-dot"></span>
+              <span class="grow-badge-title">LET'S TALK</span>
+              <span class="grow-badge-sep" aria-hidden="true">•</span>
+              <span class="grow-badge-desc">Unique approach to empower &amp; scale your company</span>
+            </div>
+
+            <!-- Unified, High-Impact Heading -->
+            <h2 class="grow-headline">
+              <span class="grow-headline-line1">
+                READY TO <span class="grow-word-gradient">GROW</span>
+              </span>
+              <span class="grow-headline-line2">
+                <span class="grow-amp-char">&amp;</span> SCALE YOUR COMPANY?
+              </span>
+            </h2>
+
+          </div>
+        </div>
+
+        <!-- Application Form -->
+        <form class="grow-form" id="inquiry-form">
+          <div class="form-grid">
+            
+            <!-- Left Column -->
+            <div class="form-col">
+              
+              <div class="form-group">
+                <label class="form-label" for="user-name">YOUR NAME*</label>
+                <input class="form-input" id="user-name" name="name" type="text" placeholder="John Raddison" required autocomplete="name" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="user-email">YOUR EMAIL*</label>
+                <input class="form-input" id="user-email" name="email" type="email" placeholder="johnraddison@gmail.com" required autocomplete="email" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="scaling-challenge">WHAT'S YOUR BIGGEST CHALLENGE IN SCALING RIGHT NOW?</label>
+                <div class="select-wrapper">
+                  <select class="form-select" id="scaling-challenge" name="scaling_challenge" required>
+                    <option value="" disabled selected>Select scaling challenge</option>
+                    <option value="Brand positioning & identity">Brand positioning &amp; identity</option>
+                    <option value="Conversion rate optimization">Conversion rate optimization</option>
+                    <option value="Product design & UX simplicity">Product design &amp; UX simplicity</option>
+                    <option value="Customer acquisition & ads">Customer acquisition &amp; ads</option>
+                  </select>
+                  <span class="select-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="annual-revenue">WHAT'S YOUR ESTIMATED ANNUAL REVENUE?</label>
+                <div class="select-wrapper">
+                  <select class="form-select" id="annual-revenue" name="annual_revenue" required>
+                    <option value="" disabled selected>Select annual revenue</option>
+                    <option value="$0 - $50k">$0 - $50k</option>
+                    <option value="$50k - $250k">$50k - $250k</option>
+                    <option value="$250k - $1M">$250k - $1M</option>
+                    <option value="$1M+">$1M+</option>
+                  </select>
+                  <span class="select-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Right Column -->
+            <div class="form-col">
+              
+              <div class="form-group">
+                <label class="form-label" for="user-number">YOUR NUMBER*</label>
+                <input class="form-input" id="user-number" name="phone" type="tel" placeholder="+1 (514) 23 4567" required autocomplete="tel" />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="business-tenure">HOW LONG HAVE YOU BEEN IN BUSINESS?</label>
+                <div class="select-wrapper">
+                  <select class="form-select" id="business-tenure" name="business_tenure" required>
+                    <option value="" disabled selected>Select business tenure</option>
+                    <option value="0-1 year">0-1 year</option>
+                    <option value="1-3 years">1-3 years</option>
+                    <option value="3-5 years">3-5 years</option>
+                    <option value="5+ years">5+ years</option>
+                  </select>
+                  <span class="select-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="marketing-spend">HOW MUCH DO YOU SPEND ON MARKETING EACH MONTH?</label>
+                <div class="select-wrapper">
+                  <select class="form-select" id="marketing-spend" name="marketing_spend" required>
+                    <option value="" disabled selected>Select marketing spend</option>
+                    <option value="< $5k / mo">&lt; $5k / mo</option>
+                    <option value="$5k - $10k / mo">$5k - $10k / mo</option>
+                    <option value="$10k - $50k / mo">$10k - $50k / mo</option>
+                    <option value="$50k+ / mo">$50k+ / mo</option>
+                  </select>
+                  <span class="select-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="paid-ads">ARE YOU RUNNING PAID ADS RIGHT NOW?</label>
+                <div class="select-wrapper">
+                  <select class="form-select" id="paid-ads" name="paid_ads" required>
+                    <option value="" disabled selected>Select paid ads status</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                    <option value="Planning to start soon">Planning to start soon</option>
+                  </select>
+                  <span class="select-arrow">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Form Feedback Message (Supabase Response) -->
+          <div id="form-feedback" class="form-feedback-message" style="display: none;" role="alert"></div>
+
+          <!-- Submit Button Action -->
+          <div class="form-action-row">
+            <button type="submit" class="btn-submit-grow" id="btn-submit-inquiry">
+              <span class="btn-submit-text">Send Application</span>
+              <span class="btn-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </span>
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </section>
+
+    <!-- FINAL SECTION: LET'S BUILD SOMETHING AMAZING TOGETHER (CONTACT & SOCIALS) -->
+    <footer class="final-connect-section">
+      <div class="final-connect-container">
+        
+        <!-- Header Introduction Row -->
+        <div class="connect-header-center">
+          <div class="connect-eyebrow-pill">
+            <span class="connect-live-dot"></span>
+            <span class="connect-eyebrow-text">GET IN TOUCH • LET'S TALK</span>
+          </div>
+          <h2 class="connect-main-title">
+            Let's Build Something<br>
+            <span class="gradient-amazing-text">Amazing</span> Together!
+          </h2>
+          <p class="connect-desc">
+            Have a project in mind, an exciting collaboration opportunity, or just want to say hi? I'd love to hear from you!
+          </p>
+        </div>
+
+        <!-- Symmetrical 2-Column Translucent Glass Grid -->
+        <div class="connect-structured-grid">
+          
+          <!-- LEFT CARD: DIRECT REACH & AVAILABILITY -->
+          <div class="connect-glass-card direct-reach-card">
+            <div class="card-glass-header">
+              <div class="card-header-badge">
+                <span class="badge-dot-indicator"></span>
+                <span>DIRECT INQUIRY</span>
+              </div>
+              <span class="card-status-pill">⚡ Direct Access</span>
+            </div>
+
+            <div class="direct-contact-items-list">
+              
+              <!-- Contact Item 1: Email -->
+              <a href="mailto:subham.codehub@gmail.com" class="direct-item-row" title="Email Subham directly">
+                <div class="direct-icon-box icon-purple">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div class="direct-text-col">
+                  <span class="direct-label">PRIMARY EMAIL</span>
+                  <span class="direct-val">subham.codehub@gmail.com</span>
+                </div>
+                <span class="direct-arrow-action">↗</span>
+              </a>
+
+              <!-- Contact Item 2: Location -->
+              <div class="direct-item-row">
+                <div class="direct-icon-box icon-orange">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="direct-text-col">
+                  <span class="direct-label">BASE LOCATION</span>
+                  <span class="direct-val">Kolkata, India <span class="sub-val">• Remote Worldwide</span></span>
+                </div>
+              </div>
+
+              <!-- Contact Item 3: Response Time -->
+              <div class="direct-item-row">
+                <div class="direct-icon-box icon-indigo">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                </div>
+                <div class="direct-text-col">
+                  <span class="direct-label">RESPONSE TIME</span>
+                  <span class="direct-val">Within 12 – 24 Hours <span class="sub-val">• Active Daily</span></span>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Handwritten Note Pill at bottom of Card -->
+            <div class="card-handwritten-footer">
+              <span class="handwritten-text">Let's create something meaningful!</span>
+              <span class="handwritten-arrow">→</span>
+            </div>
+          </div>
+
+          <!-- RIGHT CARD: FOLLOW & NETWORKS -->
+          <div class="connect-glass-card profiles-network-card">
+            <div class="card-glass-header">
+              <div class="card-header-badge">
+                <span class="badge-dot-indicator dot-social"></span>
+                <span>FOLLOW &amp; SHARE</span>
+              </div>
+              <div class="thanks-note-pill">
+                <span>Thanks for visiting! ♡</span>
+              </div>
+            </div>
+
+            <p class="card-profiles-desc">
+              Stay connected with my latest codebases, open-source repositories, and tech discussions across platforms.
+            </p>
+
+            <!-- 2x2 Symmetrical App Squircles Grid -->
+            <div class="social-app-grid">
+              
+              <!-- GitHub -->
+              <a href="https://github.com/subhamcodehub-creator" target="_blank" rel="noopener noreferrer" class="social-app-card" title="Visit GitHub">
+                <div class="app-icon-squircle github-squircle">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="#ffffff">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0 0 22 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                </div>
+                <div class="app-card-info">
+                  <div class="app-card-title-row">
+                    <span class="app-card-title">GitHub</span>
+                    <span class="app-card-arrow">↗</span>
+                  </div>
+                  <span class="app-card-handle">@subhamcodehub</span>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/in/subham-ghosh-601753424/?isSelfProfile=true" target="_blank" rel="noopener noreferrer" class="social-app-card" title="Connect on LinkedIn">
+                <div class="app-icon-squircle linkedin-squircle">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff">
+                    <circle cx="4.98" cy="4.5" r="2.4" fill="#ffffff"/>
+                    <rect x="2.6" y="8.8" width="4.76" height="11.2" rx="0.8" fill="#ffffff"/>
+                    <path d="M10.4 8.8h4.52v1.58h.06c.63-1.19 2.16-2.08 4.02-2.08 4.3 0 5.1 2.83 5.1 6.51v6.99h-4.71v-6.2c0-1.48-.03-3.38-2.06-3.38-2.06 0-2.38 1.61-2.38 3.27v6.31H10.4V8.8z" fill="#ffffff"/>
+                  </svg>
+                </div>
+                <div class="app-card-info">
+                  <div class="app-card-title-row">
+                    <span class="app-card-title">LinkedIn</span>
+                    <span class="app-card-arrow">↗</span>
+                  </div>
+                  <span class="app-card-handle">Subham Ghosh</span>
+                </div>
+              </a>
+
+              <!-- Instagram -->
+              <a href="https://www.instagram.com/subham.codehub/?hl=en" target="_blank" rel="noopener noreferrer" class="social-app-card" title="Follow on Instagram">
+                <div class="app-icon-squircle insta-squircle">
+                  <svg width="26" height="26" viewBox="0 0 24 24" fill="none">
+                    <rect x="2.5" y="2.5" width="19" height="19" rx="5.5" stroke="#ffffff" stroke-width="2.2"/>
+                    <circle cx="12" cy="12" r="4.3" stroke="#ffffff" stroke-width="2.2"/>
+                    <circle cx="17.2" cy="6.8" r="1.4" fill="#ffffff"/>
+                  </svg>
+                </div>
+                <div class="app-card-info">
+                  <div class="app-card-title-row">
+                    <span class="app-card-title">Instagram</span>
+                    <span class="app-card-arrow">↗</span>
+                  </div>
+                  <span class="app-card-handle">@subham.codehub</span>
+                </div>
+              </a>
+
+              <!-- Gmail -->
+              <a href="mailto:subham.codehub@gmail.com" class="social-app-card" title="Send an Email">
+                <div class="app-icon-squircle mail-squircle">
+                  <svg width="26" height="26" viewBox="0 0 24 24">
+                    <path fill="#4285F4" d="M22 6.5v11a2.5 2.5 0 0 1-2.5 2.5h-3.5V12L22 6.5z"/>
+                    <path fill="#34A853" d="M2 6.5L8 12v8H4.5A2.5 2.5 0 0 1 2 17.5v-11z"/>
+                    <path fill="#EA4335" d="M16 12l6-5.5V6a2 2 0 0 0-3.14-1.64L12 9.5 5.14 4.36A2 2 0 0 0 2 6v.5l6 5.5 4 3 4-3z"/>
+                    <path fill="#FBBC04" d="M2 6a2 2 0 0 1 3.14-1.64L8 6.5 2 12V6z"/>
+                    <path fill="#C5221F" d="M16 6.5l2.86-2.14A2 2 0 0 1 22 6v6l-6-5.5z"/>
+                  </svg>
+                </div>
+                <div class="app-card-info">
+                  <div class="app-card-title-row">
+                    <span class="app-card-title">Gmail</span>
+                    <span class="app-card-arrow">↗</span>
+                  </div>
+                  <span class="app-card-handle">subham.codehub</span>
+                </div>
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- BOTTOM BRAND & COPYRIGHT BAR -->
+        <div class="final-bottom-bar">
+          <div class="bottom-brand-area">
+            <span class="code-symbol-gradient">&lt;/&gt;</span>
+            <span class="brand-bar-divider">|</span>
+            <span class="copyright-text">© 2026 Subham Ghosh. All rights reserved.</span>
+          </div>
+
+          <div class="bottom-tagline-keywords">
+            <span>BUILD</span>
+            <span class="dot-sep">•</span>
+            <span>LEARN</span>
+            <span class="dot-sep">•</span>
+            <span>CREATE</span>
+            <span class="dot-sep">•</span>
+            <span>GROW</span>
+          </div>
+
+          <a href="#home" class="btn-back-to-top">
+            <span>Back to top</span>
+            <span class="arrow-up">↑</span>
+          </a>
+        </div>
+
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- SUPABASE JS CLIENT SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="app.js"></script>
+</body>
+</html>

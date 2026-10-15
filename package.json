@@ -1,0 +1,13 @@
+{
+  "name": "smooth-scroll-animation",
+  "version": "1.0.0",
+  "description": "Ultra smooth cinematic scroll animation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["scroll", "animation", "canvas", "interactive"],
+  "author": "",
+  "license": "ISC"
+}
